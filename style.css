@@ -1,0 +1,128 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+h1{
+    text-indent: 20px;
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+}
+
+header > img {
+   width: 150px;
+}
+span#burguer{
+    background-color: rgb(0, 0, 0) ;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: #8b0f0f;
+    color: black;
+    
+}
+
+menu {
+    display: none;
+    background-color: gray;
+    margin: auto;
+    font-weight: bold;
+}
+
+menu > ul {
+    list-style-type: none;
+ }
+
+ menu >ul > li > a {
+    display: block;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+menu >ul > li > a:hover{
+    background-color: #FFBA1B;
+    color: black;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.568);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    background-color: #FFBA1B;
+    color: black;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+section.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+article > img {
+    width: 200px;
+} 
+
+.text-overlay {
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    width: 183px;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-overlay2 {
+    position: absolute;
+    top: 115%;
+    left: 55%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-overlay3 {
+    position: absolute;
+    top: 176%;
+    left: 55%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+  }
+
